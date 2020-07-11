@@ -10,16 +10,18 @@ public class MyDrawPanel extends JPanel {
     /* You have to override the paintComponent() method*/
 
     // draw a widget
-/*    public void paintComponent(Graphics g) {
+/*      public void paintComponent(Graphics g) {
         g.setColor(Color.orange);
         g.fillRect(20, 50, 100, 100);
-    }*/
+    }
+*/
 
     // display a JPEG
-/*    public void paintComponent(Graphics g) {
+/*      public void paintComponent(Graphics g) {
         Image image = new ImageIcon("ali.jpg").getImage();
         g.drawImage(image, 3,4, this);
-    }*/
+    }
+*/
 
     // paint a random colored circle on a black background
 /*    public void paintComponent(Graphics g) {
@@ -34,7 +36,8 @@ public class MyDrawPanel extends JPanel {
         Color randomColor = new Color(red, green, blue);
         g.setColor(randomColor);
         g.fillOval(70, 70, 100, 100);
-    }*/
+    }
+*/
 
 
     /* The object referenced by the "g" parameter is actually an instance of the Graphics2D Class
@@ -49,7 +52,8 @@ public class MyDrawPanel extends JPanel {
         // set the virtual paint brush to a gradient
         g2d.setPaint(gradient);
         g2d.fillOval(70, 70, 100, 100);
-    }*/
+    }
+*/
 
 
     // Same as above except this method makes random colors to fill the gradient

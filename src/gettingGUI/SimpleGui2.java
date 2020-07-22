@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SimpleGui2 implements ActionListener {
-
     JFrame frame = new JFrame();
     JButton button;
 
@@ -39,10 +38,8 @@ public class SimpleGui2 implements ActionListener {
 
     } // end go() method
 
-    public static void main(String[] args) {
-
+/*    public static void main(String[] args) {
         SimpleGui2 test = new SimpleGui2();
         test.go();
-
-    }
+    }*/
 }

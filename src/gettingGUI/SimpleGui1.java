@@ -22,17 +22,12 @@ public class SimpleGui1 {
     }
 
 
-    public static void main(String[] args) {
-
-
+/*    public static void main(String[] args) {
         String [] test = {"flower","flow","flight"};
-
         longestCommonPrefix(test);
-
-
-
         // make a frame and button
- /*       JFrame frame = new JFrame();
+    *//*
+        JFrame frame = new JFrame();
         JButton button = new JButton("Click Me");
 
         // make the program quit as soon as you close the window.
@@ -44,7 +39,7 @@ public class SimpleGui1 {
         // size the frame in pixels
         frame.setSize(300, 300);
         // make it visible
-        frame.setVisible(true);*/
-
-    }
+        frame.setVisible(true);
+    *//*
+    }*/
 }

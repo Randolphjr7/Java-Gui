@@ -1,3 +1,5 @@
+package gettingGUI;
+
 import javax.sound.midi.*;
 
 // Version One: Code that simplifies making and adding MIDI events.

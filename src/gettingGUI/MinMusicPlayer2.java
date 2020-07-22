@@ -1,3 +1,5 @@
+package gettingGUI;
+
 import javax.sound.midi.*;
 
 // Version Two: Register and listen for the events, but without graphics

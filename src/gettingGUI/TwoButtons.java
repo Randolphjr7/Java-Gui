@@ -1,4 +1,4 @@
-import gettingGUI.MyDrawPanel;
+package gettingGUI;
 
 import javax.swing.*;
 import java.awt.*;

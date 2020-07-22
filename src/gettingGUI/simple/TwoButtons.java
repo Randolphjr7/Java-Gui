@@ -1,4 +1,4 @@
-package gettingGUI;
+package gettingGUI.simple;
 
 import javax.swing.*;
 import java.awt.*;
@@ -55,13 +55,13 @@ public class TwoButtons {
         }
     } // end of inner class ColorListener
 
-/*    public static void main(String[] args) {
+    public static void main(String[] args) {
         TwoButtons gui = new TwoButtons();
         gui.go();
 
-*//*        int min = 0;
+        int min = 0;
         int max = 2;
         int randomNum = ThreadLocalRandom.current().nextInt(min, max + 1);
-        System.out.println("random number: " + randomNum);*//*
-    }*/
+        System.out.println("random number: " + randomNum);
+    }
 }

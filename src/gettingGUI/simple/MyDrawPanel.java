@@ -1,4 +1,4 @@
-package gettingGUI;
+package gettingGUI.simple;
 
 import javax.swing.*;
 import java.awt.*;

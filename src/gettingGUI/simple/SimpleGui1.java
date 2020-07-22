@@ -1,4 +1,4 @@
-package gettingGUI;
+package gettingGUI.simple;
 
 public class SimpleGui1 {
 

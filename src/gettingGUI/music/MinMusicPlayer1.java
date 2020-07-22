@@ -1,4 +1,4 @@
-package gettingGUI;
+package gettingGUI.music;
 
 import javax.sound.midi.*;
 

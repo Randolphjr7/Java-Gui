@@ -12,7 +12,6 @@ public class TwoButtons {
     JLabel label;
 
     void go() {
-
         frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -33,7 +32,6 @@ public class TwoButtons {
 
         frame.setSize(400,300);
         frame.setVisible(true);
-
     }
 
 
@@ -57,13 +55,13 @@ public class TwoButtons {
         }
     } // end of inner class ColorListener
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
         TwoButtons gui = new TwoButtons();
         gui.go();
 
-/*        int min = 0;
+*//*        int min = 0;
         int max = 2;
         int randomNum = ThreadLocalRandom.current().nextInt(min, max + 1);
-        System.out.println("random number: " + randomNum);*/
-    }
+        System.out.println("random number: " + randomNum);*//*
+    }*/
 }

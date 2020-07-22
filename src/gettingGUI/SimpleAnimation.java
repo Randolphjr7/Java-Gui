@@ -7,6 +7,7 @@ public class SimpleAnimation {
     int x = 300;
     int y = 300;
 
+    // inner class
     class MyDrawPanel extends JPanel {
 
         public void paintComponent(Graphics g) {
@@ -50,11 +51,11 @@ public class SimpleAnimation {
     }
 
 
+/*
     public static void main(String[] args) {
-
         SimpleAnimation test = new SimpleAnimation();
         test.go();
-
     }
+*/
 
 }

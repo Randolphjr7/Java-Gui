@@ -17,6 +17,7 @@ public class MiniMusicPlayer3 {
     } // close method
 
     void go() {
+
         setUpGui();
 
         try {

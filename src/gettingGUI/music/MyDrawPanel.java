@@ -8,7 +8,7 @@ import java.awt.*;
 // the drawing panel is a listener
 public class MyDrawPanel extends JPanel implements ControllerEventListener {
     // set the flag to true only when we get an event
-    boolean msg = true;
+    boolean msg = false;
 
     @Override
     public void controlChange(ShortMessage shortMessage) {
